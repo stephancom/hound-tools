@@ -1,3 +1,5 @@
+require 'fileutils'
+
 RSpec.shared_examples 'a template' do |filename|
 
   specify { expect(subject.filename).to eq(filename) }
