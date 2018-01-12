@@ -12,7 +12,8 @@
 # Files you want to exclude
 AllCops:
   # Rails cops (so we don't need to run with -R option)
-  RunRailsCops: true
+  Rails:
+    Enabled: true
   Exclude:
     - db/schema.rb
     - Gemfile

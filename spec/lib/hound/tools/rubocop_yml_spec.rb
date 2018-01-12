@@ -28,7 +28,7 @@ RSpec.describe Hound::Tools::RubocopYml do
 
           expected = %w(.hound/defaults.yml .hound/overrides.yml .rubocop_todo.yml)
           expect(config['inherit_from']).to match_array(expected)
-          expect(config['AllCops']).to include('RunRailsCops' => true)
+          expect(config['AllCops']).to include('Rails' => { 'Enabled' => true })
         end
 
         subject.generate
