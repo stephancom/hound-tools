@@ -32,6 +32,9 @@ Attr:
 BlockNesting:
   Enabled: false
 
+BinaryOperatorParameterName:
+  Enabled: false
+
 CaseEquality:
   Enabled: false
 
@@ -64,9 +67,6 @@ CyclomaticComplexity:
   Enabled: false
 
 Delegate:
-  Enabled: false
-
-DeprecatedHashMethods:
   Enabled: false
 
 Documentation:
@@ -153,9 +153,6 @@ NumericLiterals:
 OneLineConditional:
   Enabled: false
 
-OpMethod:
-  Enabled: false
-
 ParameterLists:
   Enabled: false
 
@@ -168,6 +165,9 @@ PerlBackrefs:
 PredicateName:
   NamePrefixBlacklist:
     - is_
+
+PreferredHashMethods:
+  Enabled: false
 
 Proc:
   Enabled: false
@@ -199,7 +199,10 @@ StringLiterals:
 VariableInterpolation:
   Enabled: false
 
-TrailingComma:
+TrailingCommaInArguments:
+  Enabled: false
+
+TrailingCommaInLiteral:
   Enabled: false
 
 TrivialAccessors:
@@ -238,9 +241,6 @@ ElseLayout:
   Enabled: false
 
 HandleExceptions:
-  Enabled: false
-
-InvalidCharacterLiteral:
   Enabled: false
 
 LiteralInCondition:
