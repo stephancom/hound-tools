@@ -1,5 +1,5 @@
 [![Gem Version](https://badge.fury.io/rb/hound-tools.svg)](http://badge.fury.io/rb/hound-tools)
-[![Build Status](https://travis-ci.org/e2/hound-tools.png?branch=master)](https://travis-ci.org/e2/hound-tools)
+[![Build Status](https://travis-ci.org/e2/hound-tools.svg?branch=master)](https://travis-ci.org/e2/hound-tools)
 
 
 # Hound::Tools
