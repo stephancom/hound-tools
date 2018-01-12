@@ -49,7 +49,7 @@ module Hound
 
         # NOTE: treating hound.yml as a rubocop.yml file is deprecated
         custom = RuboCop::Config.new(hound.rubocop_data || hound.yml, '')
-        custom.add_missing_namespaces
+        # custom.add_missing_namespaces # No longer in RuboCop::Config. Deprecated?
         custom.make_excludes_absolute
 
         default = RuboCop::ConfigLoader.configuration_from_file(hound_ci_style)
