@@ -243,7 +243,7 @@ ElseLayout:
 HandleExceptions:
   Enabled: false
 
-LiteralInCondition:
+LiteralAsCondition:
   Enabled: false
 
 LiteralInInterpolation:
